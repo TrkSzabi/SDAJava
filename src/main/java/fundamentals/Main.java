@@ -23,5 +23,8 @@ public class Main {
         //Task1
         tasksExercices1.perimeters();
 
+
+        Tema tema = new Tema();
+        tema.bodyMassIndex();
     }
 }
