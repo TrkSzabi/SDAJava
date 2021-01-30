@@ -29,6 +29,7 @@ public class Main {
 
         TasksExercises.printAllPrimeNumbers();
         Tema.fizzBuzz();
+        Tema.longestWord();
 
     }
     }
