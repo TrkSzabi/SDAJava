@@ -30,5 +30,34 @@ public class Tema {
         }
     }
 
+  /* Write an application that takes a positive number from the user (type int) and writes all
+    numbers from 1 to the given number, each on the next line, with the following changes:
+            ● in place of numbers divisible by 3, instead of a number the program should print "Fizz"
+            ● in place of numbers divisible by 7, instead of a number the program should write
+            "Buzz"
+            ● if the number is divisible by both 3 and 7, the program should print "Fizz buzz"     */
+
+    public static void fizzBuzz(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println(" Give me a number ");
+        int inputNumber = scanner.nextInt();
+        for (int i = 1; i <= inputNumber; i++) {
+            if (i % 21 == 0) {
+                System.out.println(" FizzBuzz " + i);
+                continue;
+            }
+            if (i % 3 == 0) {
+                System.out.println(" Fizz " + i );
+                continue;
+            }
+            if (i % 7 == 0) {
+                System.out.println(" Buzz " +i);
+                continue;
+            }
+            System.out.println(i);
+        }
+    }
+
+
 }
 

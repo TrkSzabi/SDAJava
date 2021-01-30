@@ -8,7 +8,7 @@ public class Main {
 
 
         //static vs non-static fields and methods
-        TasksExercises tasksExercices1 = new TasksExercises();
+   /*     TasksExercises tasksExercices1 = new TasksExercises();
         TasksExercises tasksExercices2 = new TasksExercises();
         System.out.println("x = " + tasksExercices1.x);
         System.out.println("y = " + tasksExercices1.y);
@@ -25,6 +25,12 @@ public class Main {
 
 
         Tema tema = new Tema();
-        tema.bodyMassIndex();
+        tema.bodyMassIndex();                              */
+
+        TasksExercises.printAllPrimeNumbers();
+        Tema.fizzBuzz();
+
     }
-}
+    }
+
+
