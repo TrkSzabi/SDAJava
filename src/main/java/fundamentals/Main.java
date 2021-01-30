@@ -7,8 +7,8 @@ public class Main {
         System.out.println("Hello World");
 
 
-        //static vs non-static fields and methods
-   /*     TasksExercises tasksExercices1 = new TasksExercises();
+    /*  static vs non-static fields and methods
+        TasksExercises tasksExercices1 = new TasksExercises();
         TasksExercises tasksExercices2 = new TasksExercises();
         System.out.println("x = " + tasksExercices1.x);
         System.out.println("y = " + tasksExercices1.y);

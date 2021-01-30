@@ -33,24 +33,35 @@ public class TasksExercises {
             return;
         } else {
             for (int i = 2; i < newNumber; i++) {
-                if (isPrime(i)) {
+                if (isPrime1(i)) {
                     System.out.println(i);
                 }
             }
         }
     }
-
-    private static boolean isPrime(int nr) {
+    private static boolean isPrime1(int nr) {
         for (int i = 2; i <= nr / 2; i++) {
             if (nr % i == 0) {
                 return false;
             }
         }
-
         return true;
     }
-
-    private static boolean isPrime1(int nr) {
+    private static boolean isPrime3(int nr) {
+        if (nr == 2) {
+            return true;
+        }
+        if (nr == 0 || nr == 1 || nr % 2 == 0) {
+            return false;
+        }
+        for (int i = 3; i * i <= nr; i += 2) {
+            if (nr % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+    private static boolean isPrime2(int nr) {
         boolean isPrimeNo = true;
         for (int i = 2; i <= nr / 2; i++) {
             if (nr % i == 0) {
@@ -58,8 +69,8 @@ public class TasksExercises {
                 break;
             }
         }
-        return isPrimeNo;
-
+        return true;
     }
 }
+
 
