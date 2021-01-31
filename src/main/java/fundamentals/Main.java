@@ -29,7 +29,7 @@ public class Main {
 
      //   TasksExercises.printAllPrimeNumbers();
      //    Tema.fizzBuzz();
-     // TasksExercises.stutters();
+      TasksExercises.stutters();
        TasksExercises.testObjects();
 
 

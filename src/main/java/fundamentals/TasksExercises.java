@@ -81,7 +81,7 @@ public class TasksExercises {
     For example, for the input: "This is my test" the application should print "This This is is
     my my test test".     */
 
- /*  public static void stutters() {
+   public static void stutters() {
         Scanner scan = new Scanner(System.in);
         System.out.print("Type your word: ");
 
@@ -93,7 +93,7 @@ public class TasksExercises {
         for (int i = 0; i < words.length - 1; i++) {
             System.out.print(words[i] + " " + words[i] + " ");
         }
-        System.out.print(words[words.length - 1] + " " + words[words.length - 1]);
+        System.out.println(words[words.length - 1] + " " + words[words.length - 1]);
     }
 
 
@@ -102,7 +102,7 @@ public class TasksExercises {
         System.out.println(s1 == s2);
         System.out.println(s1 == s3);
         System.out.println(s1.equals(s3));
-    }                                                                                           */
+    }
     public static void testObjects() {
         Dog dog1 = new Dog("Azorel");
 //        dog1.setName("Azorel");
