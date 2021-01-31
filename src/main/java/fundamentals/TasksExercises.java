@@ -46,10 +46,8 @@ public class TasksExercises {
                 return false;
             }
         }
-
         return true;
     }
-
     private static boolean isPrime1(int nr) {
         boolean isPrimeNo = true;
         for (int i = 2; i <= nr / 2; i++) {
@@ -59,7 +57,7 @@ public class TasksExercises {
             }
         }
         return isPrimeNo;
-
     }
+
 }
 
