@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+  //      System.out.println("Hello World");
 
 
     /*  static vs non-static fields and methods
@@ -27,8 +27,11 @@ public class Main {
         Tema tema = new Tema();
         tema.bodyMassIndex();                              */
 
-        TasksExercises.printAllPrimeNumbers();
-        Tema.fizzBuzz();
+     //   TasksExercises.printAllPrimeNumbers();
+     //    Tema.fizzBuzz();
+     // TasksExercises.stutters();
+       TasksExercises.testObjects();
+
 
     }
     }
