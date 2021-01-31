@@ -70,7 +70,7 @@ public class TasksExercises {
 
         return true;
     }
-    private static boolean isPrime1(int nr) {
+    private static boolean isPrime4(int nr) {
 
         boolean isPrimeNo = true;
         for (int i = 2; i <= nr / 2; i++) {
@@ -121,7 +121,7 @@ public class TasksExercises {
         System.out.println(dog1.equals(dog2));
         System.out.println(dog1.getName().equals(dog2.getName()));
 
-        return isPrimeNo;
+
 
     }
 
