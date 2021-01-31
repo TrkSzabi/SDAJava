@@ -27,10 +27,16 @@ public class Main {
         Tema tema = new Tema();
         tema.bodyMassIndex();                              */
 
+
      //   TasksExercises.printAllPrimeNumbers();
      //    Tema.fizzBuzz();
       TasksExercises.stutters();
        TasksExercises.testObjects();
+
+
+        TasksExercises.printAllPrimeNumbers();
+        Tema.fizzBuzz();
+        Tema.longestWord();
 
 
     }

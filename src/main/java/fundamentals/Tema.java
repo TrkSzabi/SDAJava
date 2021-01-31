@@ -1,7 +1,6 @@
 package fundamentals;
 
 
-
 import java.util.Scanner;
 
 public class Tema {
@@ -37,7 +36,7 @@ public class Tema {
             "Buzz"
             ● if the number is divisible by both 3 and 7, the program should print "Fizz buzz"     */
 
-    public static void fizzBuzz(){
+    public static void fizzBuzz() {
         Scanner scanner = new Scanner(System.in);
         System.out.println(" Give me a number ");
         int inputNumber = scanner.nextInt();
@@ -47,17 +46,40 @@ public class Tema {
                 continue;
             }
             if (i % 3 == 0) {
-                System.out.println(" Fizz " + i );
+                System.out.println(" Fizz " + i);
                 continue;
             }
             if (i % 7 == 0) {
-                System.out.println(" Buzz " +i);
+                System.out.println(" Buzz " + i);
                 continue;
             }
             System.out.println(i);
         }
     }
+  /*  Write an application that reads a text from the user (type String) and counts a percentage of occurrences of a space character.
+    Write an application that "stutters", that is, reads the user's text (type String), and prints the given text, in which each word is printed twice.
+    For example, for the input: "This is my test" the application should print "This This is is my my test test".
+    Write an application that will read texts (variables of the String type) until the user gives the text "Enough!" and then writes the longest of the given texts (not including the text "Enough!").
+    If the user does not provide any text, write "No text provided".      */
 
+    public static void longestWord() {
+        System.out.println(" Type your word : ");
+        Scanner scanner = new Scanner(System.in);
+        String word = "";
+        String longestWord1 = "";
+        do {
+            word = scanner.next();
+            if (longestWord1.length() < word.length() && !word.equals("Enough")) {
+                longestWord1 = word;
+            }
+
+        } while (!word.equals("Enough"));
+        if (longestWord1.length() == 0) {
+            System.out.println("No text provided");
+            return;
+        }
+        System.out.println("The longest word is " + longestWord1);
+    }
 
 }
 
