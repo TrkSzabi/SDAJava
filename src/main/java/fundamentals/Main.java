@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-  //      System.out.println("Hello World");
+        //      System.out.println("Hello World");
 
 
     /*  static vs non-static fields and methods
@@ -28,18 +28,43 @@ public class Main {
         tema.bodyMassIndex();                              */
 
 
-     //   TasksExercises.printAllPrimeNumbers();
-     //    Tema.fizzBuzz();
-      TasksExercises.stutters();
-       TasksExercises.testObjects();
+        //   TasksExercises.printAllPrimeNumbers();
+        //    Tema.fizzBuzz();
+        // TasksExercises.stutters();
+        //  TasksExercises.testObjects();
 
 
-        TasksExercises.printAllPrimeNumbers();
-        Tema.fizzBuzz();
-        Tema.longestWord();
+        //   TasksExercises.printAllPrimeNumbers();
+        //  Tema.fizzBuzz();
+        //      Tema.longestWord();
+
+
+        StringExercises stringExercises = new StringExercises();
+        System.out.println("----------------");
+        stringExercises.givenIndex();
+        System.out.println("----------------");
+        stringExercises.givenStringContains();
+        System.out.println("----------------");
+        stringExercises.replaceSpecifiedCharacter();
+        System.out.println("----------------");
+        stringExercises.uppercaseFirstLetter();
+        System.out.println("----------------");
+        stringExercises.ignoringCase();
+
+
+
+        ArrayExercises arrayExercises = new ArrayExercises();
+        System.out.println("----------------");
+        arrayExercises.findMaxProduct();
+        System.out.println("----------------");
+        arrayExercises.removeElement();
+        System.out.println("----------------");
+        arrayExercises.secondMaxNumber();
+        System.out.println("----------------");
+        arrayExercises.duplicateValues();
 
 
     }
-    }
+}
 
 
