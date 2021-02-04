@@ -38,16 +38,30 @@ public class Main {
         //  Tema.fizzBuzz();
         //      Tema.longestWord();
 
+
         StringExercises stringExercises = new StringExercises();
+        System.out.println("----------------");
         stringExercises.givenIndex();
-
+        System.out.println("----------------");
         stringExercises.givenStringContains();
-
+        System.out.println("----------------");
         stringExercises.replaceSpecifiedCharacter();
-
+        System.out.println("----------------");
         stringExercises.uppercaseFirstLetter();
-
+        System.out.println("----------------");
         stringExercises.ignoringCase();
+
+
+
+        ArrayExercises arrayExercises = new ArrayExercises();
+        System.out.println("----------------");
+        arrayExercises.findMaxProduct();
+        System.out.println("----------------");
+        arrayExercises.removeElement();
+        System.out.println("----------------");
+        arrayExercises.secondMaxNumber();
+        System.out.println("----------------");
+        arrayExercises.duplicateValues();
 
 
     }
