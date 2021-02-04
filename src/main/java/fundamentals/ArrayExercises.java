@@ -21,6 +21,7 @@ public class ArrayExercises {
         System.out.println("Max product is : " + maxProduct);
     }
 
+
     //  Write a Java program to remove a specific element from an array.
 
     public static void removeElement() {
