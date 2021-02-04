@@ -70,18 +70,6 @@ public class TasksExercises {
 
         return true;
     }
-    private static boolean isPrime1(int nr) {
-
-        boolean isPrimeNo = true;
-        for (int i = 2; i <= nr / 2; i++) {
-            if (nr % i == 0) {
-                isPrimeNo = false;
-                break;
-            }
-        }
-
-        return true;
-    }
 
  /*  Write an application that "stutters", that is, reads the user's text (type String), and prints
     the given text, in which each word is printed twice.
@@ -121,7 +109,7 @@ public class TasksExercises {
         System.out.println(dog1.equals(dog2));
         System.out.println(dog1.getName().equals(dog2.getName()));
 
-        return isPrimeNo;
+        return ;
 
     }
 

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-  //      System.out.println("Hello World");
+        //      System.out.println("Hello World");
 
 
     /*  static vs non-static fields and methods
@@ -28,18 +28,29 @@ public class Main {
         tema.bodyMassIndex();                              */
 
 
-     //   TasksExercises.printAllPrimeNumbers();
-     //    Tema.fizzBuzz();
-      TasksExercises.stutters();
-       TasksExercises.testObjects();
+        //   TasksExercises.printAllPrimeNumbers();
+        //    Tema.fizzBuzz();
+        // TasksExercises.stutters();
+        //  TasksExercises.testObjects();
 
 
-        TasksExercises.printAllPrimeNumbers();
-        Tema.fizzBuzz();
-        Tema.longestWord();
+        //   TasksExercises.printAllPrimeNumbers();
+        //  Tema.fizzBuzz();
+        //      Tema.longestWord();
+
+        StringExercises stringExercises = new StringExercises();
+        stringExercises.givenIndex();
+
+        stringExercises.givenStringContains();
+
+        stringExercises.replaceSpecifiedCharacter();
+
+        stringExercises.uppercaseFirstLetter();
+
+        stringExercises.ignoringCase();
 
 
     }
-    }
+}
 
 
