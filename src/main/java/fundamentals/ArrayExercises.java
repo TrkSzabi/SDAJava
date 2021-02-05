@@ -21,7 +21,10 @@ public class ArrayExercises {
         System.out.println("Max product is : " + maxProduct);
     }
 
+ szabi/arrays-strings
 
+
+ main
     //  Write a Java program to remove a specific element from an array.
 
     public static void removeElement() {

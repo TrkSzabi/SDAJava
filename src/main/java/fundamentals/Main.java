@@ -53,7 +53,10 @@ public class Main {
 
 
 
+ szabi/arrays-strings
 
+
+ main
         ArrayExercises arrayExercises = new ArrayExercises();
         System.out.println("----------------");
         arrayExercises.findMaxProduct();
